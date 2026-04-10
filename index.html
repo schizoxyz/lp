@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semangat Mimi Nafrita!</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #fce4ec 0%, #f8bbd0 100%);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #880e4f;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            max-width: 80%;
+            border: 2px solid #f06292;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            animation: bounce 2s infinite;
+        }
+
+        p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+
+        .heart {
+            color: #e91e63;
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .button {
+            margin-top: 20px;
+            padding: 10px 25px;
+            background-color: #f06292;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: 0.3s;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .button:hover {
+            background-color: #ec407a;
+            transform: scale(1.1);
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+            40% {transform: translateY(-20px);}
+            60% {transform: translateY(-10px);}
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="heart">❤️</div>
+        <h1>Halo, Mimi Nafrita!</h1>
+        <p>Hanya ingin mengingatkan bahwa kamu luar biasa.<br>
+           Jangan lupa istirahat, tetap tersenyum, dan <br>
+           hadapi hari ini dengan penuh percaya diri!</p>
+        <p><strong>You can do this! ✨</strong></p>
+        
+        <a href="#" class="button" onclick="tampilPesan()">Klik untuk Energi Tambahan</a>
+    </div>
+
+    <script>
+        function tampilPesan() {
+            alert("Semangat terus ya Mimi! Dunia bangga punya kamu. Semangat! 🔥");
+        }
+    </script>
+
+</body>
+</html>
