@@ -1,0 +1,8 @@
+# Sapa semua robot (Google, Bing, dll)
+User-agent: *
+
+# Berikan akses ke semua halaman karena website Anda masih baru
+Allow: /
+
+# Beritahu lokasi peta website Anda (Sitemap)
+Sitemap: https://dunia-bermain.pages.dev/sitemap.xml
