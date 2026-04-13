@@ -4,33 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>Dunia Barges88 - Pusat Panduan Keamanan Digital & Privasi Resmi</title>
-    <meta name="description" content="Portal Resmi Dunia Barges88. Temukan panduan keamanan siber, edukasi perlindungan data pribadi, dan langkah praktis menjaga privasi digital bagi pengguna global.">
-    <meta name="keywords" content="Barges88, Dunia Barges88, Tentang Barges88, Keamanan Digital Barges88, Privasi Data, Edukasi Siber, Perlindungan Data Pribadi">
+    <title>BARGES88 - Panduan Keamanan Akun & Perlindungan Data Siber</title>
+    <meta name="description" content="Portal Resmi BARGES88. Pelajari cara melindungi akun dari serangan hacker, menjaga keamanan data pribadi, serta link login dan daftar BARGES88 terpercaya.">
+    <meta name="keywords" content="BARGES88, Login BARGES88, Daftar BARGES88, Link Alternatif BARGES88, Keamanan Akun, Lindungi Data, Anti Hacker">
     <link rel="canonical" href="https://dunia-bermain.pages.dev/" />
 
     <link rel="icon" type="image/png" href="https://cdn.mixlink.top/global/seamless/1785/IDR/logo/1017664818.png">
-    <link rel="apple-touch-icon" href="https://cdn.mixlink.top/global/seamless/1785/IDR/logo/1017664818.png">
-
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Dunia Barges88 - Pusat Keamanan Digital">
-    <meta property="og:description" content="Inisiatif edukasi untuk internet yang lebih aman dan terlindungi bersama Barges88.">
-    <meta property="og:image" content="https://i.gyazo.com/thumb/1000/702c6d5ec4e947b0d6d509fc3c9733c3-png.jpg">
-    <meta property="og:url" content="https://dunia-bermain.pages.dev/">
 
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "WebSite",
-      "name": "Barges88",
-      "alternateName": "Dunia Barges88",
+      "name": "BARGES88",
       "url": "https://dunia-bermain.pages.dev/",
-      "logo": "https://cdn.mixlink.top/global/seamless/1785/IDR/logo/1017664818.png",
-      "description": "Barges88 adalah pusat edukasi keamanan siber dan perlindungan privasi data pribadi yang berdedikasi menciptakan internet aman.",
-      "about": {
-        "@type": "Organization",
-        "name": "Barges88"
-      }
+      "description": "Pusat edukasi keamanan akun dan perlindungan data siber BARGES88."
     }
     </script>
 
@@ -50,77 +37,74 @@
             background-color: var(--bg-deep);
             color: var(--white);
             line-height: 1.6;
-            scroll-behavior: smooth;
         }
 
+        /* Navigasi */
         nav {
             background-color: rgba(15, 23, 42, 0.95);
             padding: 15px 5%;
             display: flex;
             justify-content: center;
-            align-items: center;
-            position: sticky;
-            top: 0; z-index: 1000;
+            border-bottom: 1px solid rgba(56, 189, 248, 0.2);
+            position: sticky; top: 0; z-index: 1000;
             backdrop-filter: blur(10px);
-            border-bottom: 1px solid rgba(56, 189, 248, 0.1);
         }
 
-        .nav-logo {
-            height: 35px;
-            width: auto;
-            transition: 0.3s;
+        /* Animasi Kelap-Kelip Bingkai */
+        @keyframes borderGlow {
+            0%, 100% { border-color: var(--accent-blue); box-shadow: 0 0 10px var(--accent-blue); }
+            50% { border-color: #ffffff; box-shadow: 0 0 30px #ffffff; }
         }
-        .nav-logo:hover { transform: scale(1.05); }
 
         .container {
-            max-width: 900px;
+            max-width: 800px;
             margin: 40px auto;
             padding: 0 20px;
         }
 
+        /* Profile Section yang Diperbesar */
         .profile-section {
             text-align: center;
-            margin-bottom: 50px;
+            margin-bottom: 40px;
         }
 
         .profile-img {
-            width: 160px; height: 160px;
+            width: 220px; /* Diperbesar sesuai permintaan */
+            height: 220px;
             object-fit: cover;
-            border-radius: 20px; 
-            border: 3px solid var(--accent-blue);
-            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-            margin-bottom: 20px;
+            border-radius: 50%; /* Dibuat bulat agar bingkai kelap-kelip lebih estetik */
+            border: 5px solid var(--accent-blue);
+            animation: borderGlow 2s infinite ease-in-out;
+            margin-bottom: 25px;
         }
 
-        h1 { color: var(--accent-blue); font-size: 2.2rem; margin: 0; }
-        h2 { color: var(--accent-blue); font-size: 1.8rem; margin-top: 0; border-left: 4px solid var(--accent-blue); padding-left: 15px; }
-        h3 { color: var(--accent-blue); font-size: 1.3rem; margin: 25px 0 10px 0; }
-        
-        .intro-text { color: var(--text-dim); margin-top: 10px; font-size: 1.2rem; font-weight: 500; }
+        h1 { color: var(--accent-blue); font-size: 2.5rem; letter-spacing: 2px; }
+        .intro-text { color: var(--text-dim); font-size: 1.1rem; margin-bottom: 30px; }
 
+        /* Tombol Link Login & Daftar (Kecil & Rapi) */
         .image-buttons {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 20px;
-            margin: 40px 0;
+            gap: 15px;
+            margin: 20px auto;
+            max-width: 450px;
         }
 
         .img-btn {
             position: relative;
             display: block;
             overflow: hidden;
-            border-radius: 15px;
-            border: 2px solid rgba(56, 189, 248, 0.2);
-            transition: 0.3s ease;
+            border-radius: 12px;
+            border: 2px solid rgba(56, 189, 248, 0.3);
+            transition: 0.3s;
             text-decoration: none;
         }
 
         .img-btn img {
             width: 100%;
-            height: 150px;
+            height: 90px;
             object-fit: cover;
             filter: brightness(40%);
-            transition: 0.5s;
         }
 
         .img-btn span {
@@ -128,109 +112,86 @@
             top: 50%; left: 50%;
             transform: translate(-50%, -50%);
             color: white;
-            font-weight: 800;
-            font-size: 1.3rem;
+            font-weight: bold;
+            font-size: 1rem;
             text-transform: uppercase;
-            letter-spacing: 2px;
-            text-shadow: 2px 2px 15px rgba(0,0,0,0.9);
         }
 
-        .img-btn:hover { transform: translateY(-5px); border-color: var(--accent-blue); box-shadow: 0 5px 15px rgba(56, 189, 248, 0.2); }
-        .img-btn:hover img { filter: brightness(60%) scale(1.05); }
+        .img-btn:hover { border-color: var(--white); transform: scale(1.02); }
 
+        /* Artikel Edukasi Hacker */
         .edu-card {
             background: var(--bg-card);
-            padding: 40px;
+            padding: 35px;
             border-radius: 20px;
             border: 1px solid rgba(255,255,255,0.05);
-            margin-bottom: 30px;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            margin-top: 40px;
         }
 
-        .edu-card ul { padding-left: 20px; }
-        .edu-card li { margin-bottom: 12px; }
+        h2 { color: var(--accent-blue); border-bottom: 2px solid var(--accent-blue); padding-bottom: 10px; }
+        h3 { color: var(--white); margin-top: 25px; }
+        
+        ul { padding-left: 20px; }
+        li { margin-bottom: 15px; }
         strong { color: var(--accent-blue); }
-
-        .link-footer { text-align: center; margin: 40px 0; }
-        .btn-link {
-            display: inline-block;
-            margin: 10px;
-            padding: 15px 40px;
-            color: var(--accent-blue);
-            text-decoration: none;
-            border: 2px solid var(--accent-blue);
-            border-radius: 12px;
-            font-weight: bold;
-            transition: 0.3s;
-        }
-        .btn-link:hover { background: var(--accent-blue); color: var(--bg-deep); transform: scale(1.05); }
 
         footer {
             text-align: center;
-            padding: 60px 20px;
+            padding: 50px 20px;
             color: var(--text-dim);
-            font-size: 0.9rem;
             border-top: 1px solid rgba(255,255,255,0.05);
         }
 
         @media (max-width: 600px) {
-            .image-buttons { grid-template-columns: 1fr; }
             h1 { font-size: 1.8rem; }
+            .profile-img { width: 180px; height: 180px; }
         }
     </style>
 </head>
 <body>
 
     <nav>
-        <a href="https://dunia-bermain.pages.dev/">
-            <img src="https://cdn.mixlink.top/global/seamless/1785/IDR/logo/1017664818.png" alt="Logo Barges88 Resmi" class="nav-logo">
-        </a>
+        <img src="https://cdn.mixlink.top/global/seamless/1785/IDR/logo/1017664818.png" alt="Logo BARGES88" height="40">
     </nav>
 
     <main class="container">
         <section class="profile-section">
-            <img src="https://i.gyazo.com/thumb/1000/702c6d5ec4e947b0d6d509fc3c9733c3-png.jpg" alt="Official Representative Dunia Barges88" class="profile-img">
-            <h1>Himbauan Keamanan Dunia Barges88</h1>
-            <p class="intro-text">Pusat Edukasi Resmi & Perlindungan Privasi Data Digital Global</p>
+            <img src="https://i.gyazo.com/thumb/1000/702c6d5ec4e947b0d6d509fc3c9733c3-png.jpg" alt="BARGES88 Security" class="profile-img">
+            <h1>BARGES88</h1>
+            <p class="intro-text">Pusat Keamanan Akun & Link Resmi Terpercaya</p>
+            
+            <div class="image-buttons">
+                <a href="https://jaga-kenyamanan-bersama-barges88.pages.dev/" class="img-btn" target="_blank">
+                    <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=400&q=80" alt="Login BARGES88">
+                    <span>LOGIN</span>
+                </a>
+                <a href="https://jaga-kenyamanan-bersama-barges88.pages.dev/" class="img-btn" target="_blank">
+                    <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=400&q=80" alt="Daftar BARGES88">
+                    <span>DAFTAR</span>
+                </a>
+            </div>
         </section>
 
-        <section class="image-buttons">
-            <a href="#panduan" class="img-btn">
-                <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=400&q=80" alt="Panduan Keamanan Digital">
-                <span>Edukasi</span>
-            </a>
-            <a href="https://jaga-kenyamanan-bersama-barges88.pages.dev/" class="img-btn" target="_blank" rel="noopener">
-                <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=400&q=80" alt="Portal Keamanan Barges88">
-                <span>Portal</span>
-            </a>
-        </section>
+        <article class="edu-card">
+            <h2>Panduan Melindungi Akun BARGES88 dari Serangan Hacker</h2>
+            <p>Kejahatan siber kini semakin canggih. Untuk memastikan pengalaman bermain yang aman, <strong>BARGES88</strong> merangkum tata cara melindungi akun dan data pribadi Anda dari upaya peretasan.</p>
 
-        <article id="panduan" class="edu-card">
-            <h2>Panduan Keamanan Digital dan Perlindungan Privasi Data</h2>
-            <p><strong>Dunia Barges88</strong> berkomitmen memberikan edukasi mendalam mengenai <strong>keamanan data pribadi</strong>. Lindungi diri Anda dari ancaman <strong>phishing</strong> dan kejahatan siber lainnya melalui langkah-langkah strategis berikut.</p>
+            <h3>Tata Cara Mengamankan Akun:</h3>
             <ul>
-                <li><strong>Autentikasi Dua Faktor (2FA):</strong> Wajib untuk perlindungan ekstra.</li>
-                <li><strong>Deteksi Phishing:</strong> Waspada terhadap link mencurigakan.</li>
-                <li><strong>Update Sistem:</strong> Selalu perbarui perangkat lunak Anda.</li>
-                <li><strong>Password Kuat:</strong> Gunakan manajemen kata sandi yang unik.</li>
+                <li><strong>Gunakan Password Kombinasi Kompleks:</strong> Hindari penggunaan tanggal lahir. Gunakan campuran huruf kapital, angka, dan simbol unik pada akun <strong>BARGES88</strong> Anda.</li>
+                <li><strong>Aktifkan Fitur Keamanan Ganda (2FA):</strong> Pastikan setiap akses masuk memerlukan verifikasi tambahan melalui email atau aplikasi autentikator resmi.</li>
+                <li><strong>Waspadai Teknik Phishing:</strong> Jangan pernah memberikan data login Anda kepada pihak yang mengaku sebagai admin. Link resmi hanya dapat diakses melalui portal <strong>BARGES88</strong> ini.</li>
+                <li><strong>Bersihkan Cache & Hindari Free Wi-Fi:</strong> Jangan melakukan <strong>Login BARGES88</strong> menggunakan jaringan Wi-Fi publik yang tidak terenkripsi, karena sangat rawan penyadapan data oleh hacker.</li>
+                <li><strong>Ganti PIN Secara Berkala:</strong> Melakukan pembaruan keamanan secara rutin adalah langkah terbaik untuk memutus akses pihak ketiga yang mencurigakan.</li>
             </ul>
+
+            <h3>Komitmen BARGES88 Terhadap Data Anda</h3>
+            <p>Sistem kami menggunakan enkripsi tingkat tinggi untuk memastikan setiap data yang masuk ke <strong>Daftar BARGES88</strong> terlindungi sepenuhnya. Dengan mengikuti panduan di atas, Anda telah membantu kami menciptakan ekosistem permainan yang sehat dan aman.</p>
         </article>
-
-        <section class="edu-card" style="border-top: 4px solid var(--accent-blue);">
-            <h2>Tentang Dunia Barges88</h2>
-            <p><strong>Barges88</strong> adalah inisiatif independen yang berdedikasi pada literasi digital. Kami hadir sebagai mercusuar informasi untuk memastikan setiap pengguna memiliki pemahaman mendalam tentang kedaulatan informasi di dunia maya.</p>
-            <h3>Visi dan Misi</h3>
-            <p>Misi utama <strong>Barges88</strong> adalah menciptakan ekosistem internet yang sehat, aman, dan transparan melalui edukasi teknis yang mumpuni bagi seluruh masyarakat.</p>
-        </section>
-
-        <section class="link-footer">
-            <a href="https://jaga-kenyamanan-bersama-barges88.pages.dev/" class="btn-link">Layanan 24/7</a>
-            <a href="https://jaga-kenyamanan-bersama-barges88.pages.dev/" class="btn-link">Verifikasi Akun</a>
-        </section>
     </main>
 
     <footer>
-        <p>&copy; 2026 <strong>Barges88 Official</strong> - Inisiatif Edukasi Keamanan Digital.</p>
+        <p>&copy; 2026 <strong>BARGES88 OFFICIAL</strong> - Keamanan Anda Adalah Prioritas Kami.</p>
     </footer>
 
 </body>
