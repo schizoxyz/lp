@@ -9,7 +9,8 @@
     <meta name="keywords" content="BARGES88, Login BARGES88, Daftar BARGES88, Link Alternatif BARGES88, Keamanan Akun, Lindungi Data, Anti Hacker">
     <link rel="canonical" href="https://dunia-bermain.pages.dev/" />
 
-    <link rel="icon" type="image/png" href="https://cdn.mixlink.top/global/seamless/1785/IDR/logo/1017664818.png">
+    <link rel="icon" type="image/png" href="asset/logobulat.png">
+    <link rel="apple-touch-icon" href="asset/logobulat.png">
 
     <script type="application/ld+json">
     {
@@ -42,7 +43,7 @@
         /* Navigasi */
         nav {
             background-color: rgba(15, 23, 42, 0.95);
-            padding: 15px 5%;
+            padding: 10px 5%;
             display: flex;
             justify-content: center;
             border-bottom: 1px solid rgba(56, 189, 248, 0.2);
@@ -50,38 +51,41 @@
             backdrop-filter: blur(10px);
         }
 
-        /* Animasi Kelap-Kelip Bingkai */
+        .nav-logo { height: 50px; width: auto; }
+
+        /* Animasi Kelap-Kelip Bingkai (Neon Glow) */
         @keyframes borderGlow {
-            0%, 100% { border-color: var(--accent-blue); box-shadow: 0 0 10px var(--accent-blue); }
-            50% { border-color: #ffffff; box-shadow: 0 0 30px #ffffff; }
+            0%, 100% { border-color: var(--accent-blue); box-shadow: 0 0 15px var(--accent-blue); }
+            50% { border-color: #ffffff; box-shadow: 0 0 35px #ffffff; }
         }
 
         .container {
             max-width: 800px;
-            margin: 40px auto;
+            margin: 30px auto;
             padding: 0 20px;
         }
 
-        /* Profile Section yang Diperbesar */
+        /* Profile Section */
         .profile-section {
             text-align: center;
             margin-bottom: 40px;
         }
 
+        /* Foto Profil (fotoprofil.png) diperbesar dengan bingkai kelap-kelip */
         .profile-img {
-            width: 220px; /* Diperbesar sesuai permintaan */
-            height: 220px;
+            width: 240px; 
+            height: 240px;
             object-fit: cover;
-            border-radius: 50%; /* Dibuat bulat agar bingkai kelap-kelip lebih estetik */
-            border: 5px solid var(--accent-blue);
-            animation: borderGlow 2s infinite ease-in-out;
+            border-radius: 50%;
+            border: 6px solid var(--accent-blue);
+            animation: borderGlow 1.5s infinite ease-in-out;
             margin-bottom: 25px;
         }
 
-        h1 { color: var(--accent-blue); font-size: 2.5rem; letter-spacing: 2px; }
-        .intro-text { color: var(--text-dim); font-size: 1.1rem; margin-bottom: 30px; }
+        h1 { color: var(--accent-blue); font-size: 2.8rem; letter-spacing: 3px; margin: 10px 0; font-weight: 800; }
+        .intro-text { color: var(--text-dim); font-size: 1.2rem; margin-bottom: 30px; }
 
-        /* Tombol Link Login & Daftar (Kecil & Rapi) */
+        /* Tombol Link Login & Daftar (Rapi & Kecil) */
         .image-buttons {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -98,13 +102,15 @@
             border: 2px solid rgba(56, 189, 248, 0.3);
             transition: 0.3s;
             text-decoration: none;
+            background-color: #000;
         }
 
         .img-btn img {
             width: 100%;
-            height: 90px;
+            height: 85px;
             object-fit: cover;
             filter: brightness(40%);
+            opacity: 0.7;
         }
 
         .img-btn span {
@@ -112,24 +118,28 @@
             top: 50%; left: 50%;
             transform: translate(-50%, -50%);
             color: white;
-            font-weight: bold;
-            font-size: 1rem;
+            font-weight: 900;
+            font-size: 1.1rem;
             text-transform: uppercase;
+            text-shadow: 2px 2px 8px rgba(0,0,0,0.8);
+            width: 100%;
+            text-align: center;
         }
 
-        .img-btn:hover { border-color: var(--white); transform: scale(1.02); }
+        .img-btn:hover { border-color: var(--white); transform: scale(1.05); }
 
-        /* Artikel Edukasi Hacker */
+        /* Artikel Edukasi */
         .edu-card {
             background: var(--bg-card);
             padding: 35px;
             border-radius: 20px;
             border: 1px solid rgba(255,255,255,0.05);
             margin-top: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
         }
 
-        h2 { color: var(--accent-blue); border-bottom: 2px solid var(--accent-blue); padding-bottom: 10px; }
-        h3 { color: var(--white); margin-top: 25px; }
+        h2 { color: var(--accent-blue); font-size: 1.8rem; border-bottom: 2px solid var(--accent-blue); padding-bottom: 10px; margin-bottom: 20px; }
+        h3 { color: var(--white); margin-top: 25px; font-size: 1.4rem; }
         
         ul { padding-left: 20px; }
         li { margin-bottom: 15px; }
@@ -140,23 +150,27 @@
             padding: 50px 20px;
             color: var(--text-dim);
             border-top: 1px solid rgba(255,255,255,0.05);
+            font-size: 0.9rem;
         }
 
         @media (max-width: 600px) {
-            h1 { font-size: 1.8rem; }
-            .profile-img { width: 180px; height: 180px; }
+            h1 { font-size: 2rem; }
+            .profile-img { width: 190px; height: 190px; }
         }
     </style>
 </head>
 <body>
 
     <nav>
-        <img src="https://cdn.mixlink.top/global/seamless/1785/IDR/logo/1017664818.png" alt="Logo BARGES88" height="40">
+        <a href="/">
+            <img src="asset/logoheader.png" alt="Logo Utama BARGES88" class="nav-logo">
+        </a>
     </nav>
 
     <main class="container">
         <section class="profile-section">
-            <img src="https://i.gyazo.com/thumb/1000/702c6d5ec4e947b0d6d509fc3c9733c3-png.jpg" alt="BARGES88 Security" class="profile-img">
+            <img src="asset/fotoprofil.png" alt="BARGES88 Cyber Security" class="profile-img">
+            
             <h1>BARGES88</h1>
             <p class="intro-text">Pusat Keamanan Akun & Link Resmi Terpercaya</p>
             
